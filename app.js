@@ -1,5 +1,13 @@
-const fs = require("fs");
+const validator = require("validator");
 
-fs.writeFileSync("note.txt", "Hello World!\n");
+const notes = require("./notes.js");
 
-fs.appendFileSync("note.txt", "Well Done!");
+console.log(notes());
+
+console.log(validator.isEmail("asdf"));
+
+// const fs = require("fs");
+
+// fs.writeFileSync("note.txt", "Hello World!\n");
+
+// fs.appendFileSync("note.txt", "Well Done!");
