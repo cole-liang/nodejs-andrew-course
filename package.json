@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cole-liang/nodejs-andrew-course#readme",
   "dependencies": {
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   }
 }
